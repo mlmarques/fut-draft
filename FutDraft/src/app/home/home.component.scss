@@ -1,0 +1,73 @@
+$azul: #0deaf0;
+$rosa: #fb5360;
+$preto: #181f24;
+$branco: #ffffff;
+
+.left-bar{
+    width: 5vw;
+    height: 100vh;
+    background-color: $rosa;
+}
+
+.home-button{
+    width: 3vw;
+    height: 6vh;
+    background-color: $branco;
+    position: absolute;
+    bottom: 2vh;
+    left: 1vw;
+}
+
+.exit-button{
+    width: 3vw;
+    height: 6vh;
+    background-color: $branco;
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+}
+
+main{
+    width: 70vw;
+    height: 100vh;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    background-color: $branco;
+}
+
+.big-card{
+    position: absolute;
+    left: 2.5vw;
+    top: 5vh;
+    width: 40vw;
+    height: 50vh;
+    background-color: $preto;
+}
+
+.medium-card{
+    position: absolute;
+    left: 45vw;
+    top: 5vh;
+    width: 22.5vw;
+    height: 90vh;
+    background-color: $preto;
+}
+
+.small-card{
+    position: absolute;
+    left: 2.5vw;
+    top: 60vh;
+    width: 40vw;
+    height: 35vh;
+    background-color: $preto;
+}
+
+.history-bar{
+    width: 25vw;
+    height: 100vh;
+    border-left: 2px solid $preto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
